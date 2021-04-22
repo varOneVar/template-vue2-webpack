@@ -7,6 +7,7 @@
     "qa": "npm run lint && vue-cli-service build --mode qa",
     "build": "npm run lint && vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "commit": "./node_modules/.bin/cz",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
     "prepare": "husky install"
   },
