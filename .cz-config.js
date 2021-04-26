@@ -82,7 +82,7 @@ module.exports = {
 
   // subject 限制长度
   subjectLimit: 100,
-  skipQuestions: ['footer'],
+  skipQuestions: ['breaking', 'footer'],
   breaklineChar: '|' // 支持 body 和 footer
   // footerPrefix : 'ISSUES CLOSED:'
   // askForBreakingChangeFirst : true,

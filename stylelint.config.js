@@ -14,6 +14,7 @@ module.exports = {
         // 规则级别，是警告，也可以是错误error
         severity: 'warning'
       }
-    ]
+    ],
+    'at-rule-no-unknown': null
   }
 }
